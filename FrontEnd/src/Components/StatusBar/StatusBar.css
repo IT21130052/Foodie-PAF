@@ -1,0 +1,48 @@
+.statusbar_container{
+    height: 1211px;
+    width: 636px;
+    background-color: #ffffff;
+    border: 1px solid #a6a6a6;
+    margin-top: 15px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    border-radius: 30px;
+    overflow: auto;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+.statusbar_container::-webkit-scrollbar{
+    display: none;
+}
+
+.statusbar_status{
+
+    min-width: 55px;
+    min-height: 55px;
+    padding: 0.1px;
+    border: 3px solid #048189;
+}
+
+.status{
+    margin: 25px 10px;
+
+}
+
+.statusbar_text{
+    font-size: 12px;
+    max-width: 55px;
+    overflow-x: hidden;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    
+
+}
+
+
+.statusbar_upload{
+    margin-top: 17px;
+    margin-left: 5px;
+}
